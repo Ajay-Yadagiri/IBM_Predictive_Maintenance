@@ -1,73 +1,81 @@
 # Predictive Maintenance of Industrial Machinery
-This repository presents a capstone project developed during the *IBM SkillsBuild AI & Cloud Internship, a collaborative initiative by **IBM, **AICTE, and the **Edunet Foundation*.
 
-The goal of the project is to develop a machine learning solution that can predict mechanical failures in industrial equipment using real-time sensor data. By identifying issues before they occur, organizations can reduce unplanned downtime and adopt a proactive maintenance approach.
+This repository showcases a capstone project developed during the **IBM SkillsBuild AI & Cloud Internship**, a collaborative initiative by **IBM**, **AICTE**, and the **Edunet Foundation**.
+
+The project focuses on building a machine learning model to forecast mechanical failures using real-time sensor data. By leveraging predictive strategies, industries can reduce unexpected downtime and maintain continuous operations through timely interventions.
 
 ---
 
 ## Internship Information
 
-•⁠  ⁠*Name:* Yadagiri Ajay  
-•⁠  ⁠*Institution:* Malla Reddy Engineering College (CSIT)  
-•⁠  ⁠*Internship Period:* 15th July 2025 – 7th August 2025  
+- **Name:** Yadagiri Ajay 
+- **Institution:** Malla Reddy Engineering College - CSIT 
+- **Internship Period:** 15th July 2025 – 7th August 2025  
 
 ---
 
 ## Challenge Overview
+### Objective  
+Develop a predictive maintenance model that analyzes sensor inputs and classifies machine status into the following categories:
 
-This challenge involves creating a predictive maintenance model that classifies machine states based on sensor readings. The possible classifications include:
+- Tool Wear  
+- Heat Dissipation Malfunction  
+- Electrical Failure  
+- No Failure (Normal Operation)  
 
-•⁠  ⁠Tool Wear  
-•⁠  ⁠Heat Dissipation Malfunction  
-•⁠  ⁠Electrical Failure  
-•⁠  ⁠Normal Operation  
+Proactively identifying machine issues is vital for optimizing productivity and reducing maintenance costs.
 
-This allows for early fault detection and timely maintenance.
-
-	⁠*Dataset Used:* [Kaggle - Machine Predictive Maintenance Classification](https://www.kaggle.com/datasets/shivamb/machinepredictive-maintenance-classification)  
-	⁠*Platform Requirement:* IBM Cloud Lite Services  
+> **Dataset:** [Kaggle – Machine Predictive Maintenance Dataset](https://www.kaggle.com/datasets/shivamb/machinepredictive-maintenance-classification)  
+> **Platform Requirement:** IBM Cloud Lite Services
 
 ---
 
 ## Tools & Technologies Used
 
-•⁠  ⁠*Cloud Platform:* IBM Cloud (Lite Plan)  
-•⁠  ⁠*AI Studio:* IBM Watsonx.ai  
-•⁠  ⁠*Modeling Tool:* IBM AutoAI  
-•⁠  ⁠*Programming Language:* Python (via AutoAI automation)
+- **Cloud Platform:** IBM Cloud (Lite Tier)  
+- **AI Studio:** IBM Watsonx.ai  
+- **Automation Tool:** IBM AutoAI  
+- **Programming Language:** Python (automated by AutoAI)
 
 ---
 
-## Project Workflow
+## Implementation Steps
 
-1.⁠ ⁠*Data Acquisition:* Imported sensor dataset from Kaggle into IBM Cloud.
-2.⁠ ⁠*Model Pipeline:* IBM AutoAI handled preprocessing, feature engineering, and model selection.
-3.⁠ ⁠*Chosen Algorithm:* Snap Random Forest Classifier (auto-selected)
-4.⁠ ⁠*Evaluation Metrics:* Accuracy, Precision, and Recall were used to validate the model.
-5.⁠ ⁠*Deployment:* Final model deployed using IBM Watson Machine Learning to enable real-time predictions.
+1. **Data Ingestion**  
+   Real-world machinery sensor data uploaded from Kaggle.
+
+2. **AutoAI Pipeline**  
+   Used IBM AutoAI for:
+   - Preprocessing  
+   - Feature engineering  
+   - Model selection
+
+3. **Model Type**  
+   - Snap Random Forest Classifier (auto-selected as the best model)
+
+4. **Evaluation Metrics**  
+   - Accuracy  
+   - Precision  
+   - Recall  
+
+5. **Deployment**  
+   Deployed the model using **IBM Watson Machine Learning** for real-time predictions.
 
 ---
 
-## Key Results
+## Project Files
 
-•⁠  ⁠The model demonstrated *high accuracy* in classifying machine states and detecting potential failures.
-•⁠  ⁠A real-time prediction API was successfully deployed on IBM Cloud.
-
----
-
-## Repository Contents
-
-•⁠  ⁠⁠ Predictive_Maintenance_of_Industrial_Machinery.pdf ⁠ – Detailed report on the project  
-•⁠  ⁠⁠ README.md ⁠ – Project summary and technical overview  
+- `Predictive_Maintenance_of_Industrial_Machinery.pdf` – Complete project documentation  
+- `README.md` – Overview and structure of the project repository
 
 ---
 
 ## Conclusion
 
-This project showcased the effectiveness of *cloud-based AutoML* platforms like IBM Watsonx.ai in creating reliable, production-ready machine learning models without the need for extensive coding. The solution provides a foundation for industries to shift from *reactive* to *predictive* maintenance strategies.
+This project demonstrates how **no-code AutoML platforms** like IBM Watsonx.ai can enable developers to deliver practical AI solutions. The resulting predictive maintenance system exemplifies how industries can shift from **reactive** maintenance to **data-driven predictive** strategies.
 
 ---
 
-## Acknowledgements
+## Gratitude
 
-Grateful to *IBM SkillsBuild, **Edunet Foundation, and **AICTE* for organizing this internship and offering hands-on exposure to cutting-edge AI and cloud tools.
+Thanks to **IBM SkillsBuild**, **Edunet Foundation**, and **AICTE** for providing this valuable opportunity to explore and implement AI and cloud technologies in a real-world context.
